@@ -333,6 +333,66 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>TableSignature</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>SWdmeFNzZHQ=</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>Find</key>
+				<data>TUNfXw==</data>
+				<key>Replace</key>
+				<data>T0NIQw==</data>
+				<key>Comment</key>
+				<string>Change _CHC TO MCHC</string>
+				<key>Mask</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>TableSignature</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>R1NXQXBw</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>Find</key>
+				<data>QwMUGUFEQkc=</data>
+				<key>Replace</key>
+				<data>QwMUGVhEQkc=</data>
+				<key>Comment</key>
+				<string>Change _CHC TO MCHC</string>
+				<key>Mask</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1055,6 +1115,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string>CPUFriend.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
 				<string>ECEnabler.kext</string>
@@ -1062,6 +1140,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ECEnabler</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>FeatureUnlock.kext</string>
+				<key>Comment</key>
+				<string>FeatureUnlock.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1388,6 +1484,10 @@
 			<dict>
 				<key>rtc-blacklist</key>
 				<data></data>
+				<key>revcpuname</key>
+				<string>12th Gen Intel(R) Core(TM) i7-12700H</string>
+				<key>revcpu</key>
+				<integer>1</integer>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
